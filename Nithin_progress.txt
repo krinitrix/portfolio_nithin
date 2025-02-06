@@ -1,10 +1,13 @@
 day 1 :06-02-2025
     today i learned about:
-        setting up git->install Git,setting ssh key
-        creating github account
-        basic git commands (int,add,commit,push,status)
-    learned to configure git(git config --global user.email "krisgit@gmail.com")
+        ->setting up git->install Git,setting ssh key
+        ->creating github account
+        ->basic git commands (int,add,commit,push,status)
+    (learned to configure git(git config --global user.email "krisgit@gmail.com")
     i've created three files in my directory index.html,progress.txt,style.css.
-    not started the portfolio implementation yet.
+    not started the portfolio implementation yet.)
+    ->challenges:i got error when i tried to push it on my rep
+                my error was , my branch name was 'master' but 
+                i tried to push 'main'. It was solved. 
 
 
