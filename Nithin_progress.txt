@@ -14,4 +14,6 @@ day 2 :07-02-2025
         -> some css, how to create a nav bar.
         ->inline property (display:inline;)
         ->section tag in html
-
+    challenges:i've initially implented nav bar items using display:flex.later i've 
+    decided to go with diplay :inline 
+   
