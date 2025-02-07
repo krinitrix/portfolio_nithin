@@ -9,5 +9,9 @@ day 1 :06-02-2025
     ->challenges:i got error when i tried to push it on my rep
                 my error was , my branch name was 'master' but 
                 i tried to push 'main'. It was solved. 
-
+day 2 :07-02-2025
+    today i learned about
+        -> some css, how to create a nav bar.
+        ->inline property (display:inline;)
+        ->section tag in html
 

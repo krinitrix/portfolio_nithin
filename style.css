@@ -1,0 +1,47 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 30px;
+    
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+#home {
+    background-color: cyan;
+}
+
+#about {
+    background-color: yellow;
+}
+
+#projects {
+    background-color: lightpink;
+}
+
+#contact {
+    background-color: skyblue;
+    color: aliceblue;
+}
