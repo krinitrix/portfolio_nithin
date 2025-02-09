@@ -20,25 +20,57 @@
 
     
     <section id="home">
-        <h1>Welcome to My Portfolio</h1>
-        <p>This is my portfolio website.</p>
+        <h1>Welcome to my Website</h1>
+        <div class="home-card">
+            <img src=images\home_page_img_nithin.jpg alt="Your Name">
+            <div class="home-text">
+                <h1>Hello World!</h1>
+                <p>I am <span style="color:red;font-size:1.5em;">Nithin  Krishna</span></p>
+                <p>Click on links on menu to know more about me</p>
+                
+            </div>
+        </div>
     </section>
-
+    
     <section id="about">
-        <h2>About Me</h2>
-        <p>I am currently pursuing my Master degree in Computer Applications (MCA)</p>
+        <div class="about-card">
+            <img src=images\about_img_nithin.jpg alt="Your Name" class="fade-in">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>I am Nithin Krishna, currently pursuing my Master's degree in Computer Applications (MCA) at FISAT.</p>
+                <p>I have a passion for software development, problem-solving, and music production.</p>
+            </div>
+        </div>
     </section>
+    
 
-    <section id="projects">
-        <h2>My Projects</h2>
-        <p>Comming soon.....</p>
+    <section id="projects" class="hidden">
+        <div class="projects-container">
+            <h2 class="glow-text">My Projects</h2>
+            
+            <div class="project-box">
+                <h3>Online Social Networking Platform</h3>
+                <p>A PHP-based platform designed for college students and teachers. It allows users to log in, interact, and share educational resources efficiently.</p>
+                <p><strong>Technologies Used:</strong> PHP, MySQL, HTML, CSS, JavaScript</p>
+                <a href="https://yourprojectlink.com" target="_blank" class="btn">View Project</a>
+            </div>
+        </div>
     </section>
+    
 
     <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: nithin.krishna.2002@outlook.com</p>
+        <div class="contact-container">
+            <h2 class="glow-text">Contact Me</h2>
+            
+            <div class="contact-box">
+                <p><i class="fas fa-envelope"></i> Email: <a href="#">nithin.krishna.2002@outlook.com</a></p>
+                <p><i class="fas fa-phone"></i> Phone: <a href="#">+91 8921965983</a></p>
+            </div>
+        </div>
     </section>
-
+ 
+   
+    
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const links = document.querySelectorAll("nav ul li a");
@@ -53,6 +85,15 @@
                     section.scrollIntoView({ behavior: "smooth" });
                 });
             });
+        //about
+            
+
+
+        
+        
+        
+        
+        
         });
         </script>
         

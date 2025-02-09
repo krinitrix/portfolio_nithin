@@ -29,3 +29,8 @@ day 4:09-02-2025
         ->learned about queryselectorALL()
         ->advanced javascript
         ->scrollIntoView() function
+    third commit :
+        i've added contents to all sections
+        ->leaners about glowing text decoration using css
+        ->include pictures
+        ->fade in transition when page is loaded

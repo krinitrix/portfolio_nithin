@@ -4,6 +4,7 @@ html,body {
     margin:0;
     padding:0;
     height:100%;
+ 
     
   
 }
@@ -18,6 +19,7 @@ html,body {
     background-color: #333;
     padding: 10px 0;
     text-align: center;
+    z-index: 1000;
 }
 
 .navbar ul li {
@@ -44,18 +46,219 @@ section {
 }
 
 #home {
-    background-color: cyan;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4; /* Light background */
+    padding: 20px;
 }
+
+.home-card {
+    display: flex;
+    width: 70%;
+    max-width: 900px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensures content stays within the card */
+}
+
+.home-card img {
+    width: 50%; /* Left side (image) takes 50% */
+    object-fit: cover; /* Ensures image fills the area */
+    animation: fadeIn 1.5s ease-in-out forwards;
+    position: o;
+}
+
+.home-text {
+    width: 50%; /* Right side (text) takes 50% */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+
 
 #about {
-    background-color: yellow;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 20px;
 }
+
+.about-card {
+    display: flex;
+    width: 70%;
+    max-width: 900px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Keeps everything inside the box */
+}
+
+.about-card img {
+    width: 50%; /* Left side (image) takes 50% */
+    object-fit: cover; /* Ensures the image fills the area */
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px); 
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.about-text {
+    width: 50%; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 #projects {
-    background-color: lightpink;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2a4a5b; 
+   
+ 
+   
 }
 
-#contact {
-    background-color: skyblue;
-    color: aliceblue;
+
+
+
+.projects-container {
+    text-align: center;
+    max-width: 800px;
+    color: white;
 }
+
+
+.glow-text {
+    font-size: 32px;
+    color: #ffffff;
+    text-shadow: 0 0 10px #00d9ff, 0 0 20px #00d9ff;
+    margin-bottom: 20px;
+}
+
+
+.project-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 217, 255, 0.3);
+}
+.projects-container{
+    transition: tranform 1s;
+}
+.projects-container :hover{
+   transform: scale(1.1);
+}
+
+
+.project .h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #00d9ff;
+}
+
+p {
+    font-size: 16px;
+    color: #cccccc;
+    margin-bottom: 10px;
+}
+
+
+.btn {
+    padding: 10px 20px;
+    background-color: #00d9ff;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    box-shadow: 0 0 15px #00d9ff;
+}
+
+
+#contact {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-color: #000000;
+    padding: 20px;
+}
+
+
+.contact-container {
+    text-align: center;
+    max-width: 600px;
+    color: white;
+}
+
+.glow-text {
+    font-size: 32px;
+    color: #ffffff;
+    text-shadow: 0 0 10px #00d9ff, 0 0 20px #00d9ff;
+    margin-bottom: 20px;
+}
+
+.contact-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 217, 255, 0.3);
+    text-align: left;
+    font-size: 18px;
+}
+
+.contact-box p {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-box i {
+    margin-right: 10px;
+    color: #00d9ff;
+    font-size: 20px;
+}
+
+.contact-box a {
+    color: #00d9ff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
