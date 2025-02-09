@@ -16,4 +16,16 @@ day 2 :07-02-2025
         ->section tag in html
     challenges:i've initially implented nav bar items using display:flex.later i've 
     decided to go with diplay :inline 
-   
+day 4:09-02-2025
+    first commit:
+        today i learned about some more css
+        ->i've made my navbar height relative to screen size
+        ->made all sections cover the entire screen size 
+        ->learned about flexbox
+        challenges: none
+    second commit:
+        i have added a feature where i can scroll automaticaaly to 
+        the section clicked by user on the nav bar
+        ->learned about queryselectorALL()
+        ->advanced javascript
+        ->scrollIntoView() function
